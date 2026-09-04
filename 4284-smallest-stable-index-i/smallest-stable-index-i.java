@@ -23,10 +23,6 @@ class Solution {
                 smallest[i] = smallest[i + 1];
             }
         }
-
-        for(int i = 0; i < n; i++){
-            System.out.println(largest[i] + " " + smallest[i]);
-        }
         
         for(int i = 0; i < n; i++){
             if((largest[i] - smallest[i]) <= k){
